@@ -8,13 +8,18 @@ import Timeline from './Components/Timeline'
 function App() {
 
   return (
-    <div className="App">
-      <Intro />
-      <Portfolio />
-      <Timeline />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <div className="bg-white text-stone-900 min-h-screen font-inter">
+        <div className='max-w-5xl w-11/12 mx-auto'>
+          <Intro />
+          <Portfolio />
+          <Timeline />
+          <Contact />
+          <Footer />
+        </div>
+      </div>
+    </>
+    
   )
 }
 
