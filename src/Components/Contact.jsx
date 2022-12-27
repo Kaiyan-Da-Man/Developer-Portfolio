@@ -3,7 +3,7 @@ import Title from './Title'
 
 export default function Contact() {
   return (
-    <div className='flex flex-box mb-10 mx-auto'>
+    <div className='flex flex-col mb-10 mx-auto'>
       <div className='flex justify-center items-center'>
         <form 
           action="https://getform.io/f/9c257022-8633-47a1-8c5e-82d0b4ba8922"
@@ -31,7 +31,7 @@ export default function Contact() {
           />
           <button 
             type='button'
-            className='text-center inline-block px-8 py-3 w-max-text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white'
+            className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white'
           >
             Work With Me
           </button>
