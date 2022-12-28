@@ -6,8 +6,21 @@ module.exports = {
     extend: {
       fontFamily:  {
         inter: ['inter', 'serif'],
+      },
+
+      colors: {
+        springGreen: {
+          50: '#fffddb',
+          100: '#d0ceb3',
+          200: '#a2a18c',
+          300: '#777667',
+          400: '#4e4e45',
+          500: '#292925',
+        },
+
       }
     },
+    
   },
   plugins: [],
 }
