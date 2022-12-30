@@ -8,27 +8,27 @@ import Timeline from './Components/Timeline'
 function App() {
 	const [theme, setTheme] = useState(null)
 
-  // onload
-  useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark')
-    } else {
-      setTheme('light')
-    }
-  }, [])
+	// onload
+	useEffect(() => {
+		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			setTheme('dark')
+		} else {
+			setTheme('light')
+		}
+	}, [])
 
 	const handleThemeSwitch = () => {
 		setTheme(theme === 'dark' ? 'light' : 'dark')
 	}
 
-  // onchange
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }, [theme])
+	// onchange
+	useEffect(() => {
+		if (theme === 'dark') {
+			document.documentElement.classList.add('dark')
+		} else {
+			document.documentElement.classList.remove('dark')
+		}
+	}, [theme])
 
 	const sun = (
 		<svg
@@ -37,8 +37,7 @@ function App() {
 			viewBox="0 0 24 24"
 			strokeWidth={1.5}
 			stroke="currentColor"
-			className="w-6 h-6"
-		>
+			className="w-8 h-8">
 			<path
 				strokeLinecap="round"
 				strokeLinejoin="round"
@@ -54,8 +53,7 @@ function App() {
 			viewBox="0 0 24 24"
 			strokeWidth={1.5}
 			stroke="currentColor"
-			className="w-6 h-6"
-		>
+			className="w-8 h-8">
 			<path
 				strokeLinecap="round"
 				strokeLinejoin="round"
@@ -66,9 +64,12 @@ function App() {
 
 	return (
 		<>
-      <button type='button' onClick={handleThemeSwitch} className='fixed p-2 z-10 right-20 bg-teal-700 dark:bg-springGreen-50 text-lg p-1 rounded-md'>
-        {theme === 'dark' ? sun : moon}
-      </button>
+			<button
+				type="button"
+				onClick={handleThemeSwitch}
+				className="fixed p-2 z-10 bottom-10 right-10 bg-teal-700 dark:bg-springGreen-50 text-lg rounded-full">
+				{theme === 'dark' ? sun : moon}
+			</button>
 			<div className="bg-springGreen-50 dark:bg-teal-700 text-stone-900 min-h-screen font-inter">
 				<div className="max-w-5xl w-11/12 mx-auto">
 					<Intro />
