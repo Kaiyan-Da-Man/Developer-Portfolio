@@ -9,13 +9,19 @@ module.exports = {
       },
 
       colors: {
-        springGreen: {
-          50: '#fffddb',
-          100: '#d0ceb3',
-          200: '#a2a18c',
-          300: '#777667',
-          400: '#4e4e45',
-          500: '#292925',
+        lightYellow: {
+          lightest: '#FFFFE6', 
+          light: '#FFFFE3',
+          DEFAULT: '#FFFFE0',
+          dark: '#E5E5C9',
+          darkest: '#CCCCB3',
+        },
+        myTeal:  {
+          lightest: '#B2D8D8', 
+          light: '#66B2B2',
+          DEFAULT: '#008080',
+          dark: '#006666',
+          darkest: '#004C4C',
         },
 
       }
