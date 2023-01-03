@@ -7,7 +7,7 @@ export default [
     },
     {
         title: 'Developer Portfolio',
-        imgURL: '/Developer-Portfolio/assets/img/AlgorithmVisualizer.jpg',
+        imgURL: '/Developer-Portfolio/assets/img/Portfolio.png',
         stack: ['React', 'Tailwind', 'Vite'],
         link: 'https://kaiyan-da-man.github.io/Developer-Portfolio/',
     },
