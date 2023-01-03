@@ -70,7 +70,7 @@ function App() {
 				className="fixed p-2 z-10 bottom-10 right-10 bg-myTeal dark:bg-lightYellow text-lg rounded-full">
 				{theme === 'dark' ? sun : moon}
 			</button>
-			<div className="bg-[url('public/assets/img/mountain_landscape9_generated_adobe_express.svg')] bg-cover text-stone-900 min-h-screen font-inter">
+			<div className="bg-[url('/Developer-Portfolio/assets/img/mountain_landscape9_generated_adobe_express.svg')] bg-cover text-stone-900 min-h-screen font-inter">
 				<div className='bg-gradient-to-r from-lightYellow dark:from-myTeal-darkest'>
 					<div className="max-w-full w-10/12 mx-auto">
 						<Intro />
