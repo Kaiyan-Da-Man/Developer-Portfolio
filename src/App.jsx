@@ -71,13 +71,13 @@ function App() {
 				{theme === 'dark' ? sun : moon}
 			</button>
 			<div className="bg-[url('/Developer-Portfolio/assets/img/mountain_landscape9_generated_adobe_express.svg')] bg-cover text-stone-900 min-h-screen font-inter">
-				<div className='bg-gradient-to-r from-lightYellow dark:from-myTeal-darkest'>
+				<div className='bg-gradient-to-tr from-lightYellow via-lightYellow dark:from-myTeal-darkest dark:via-myTeal-darkest ease-in duration-300'>
 					<div className="max-w-full w-10/12 mx-auto">
 						<Intro />
 					</div>
 				</div>
 			</div>
-			<div className="bg-lightYellow dark:bg-myTeal-darkest text-stone-900 min-h-screen font-inter">
+			<div className="bg-lightYellow dark:bg-myTeal-darkest text-stone-900 min-h-screen font-inter ease-in duration-300">
 				<div className="max-w-full w-10/12 mx-auto">
 					<Portfolio />
 					<Timeline />
