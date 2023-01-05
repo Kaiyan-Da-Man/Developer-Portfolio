@@ -3,7 +3,7 @@ import React from 'react'
 export default function PortfolioItem({ title, imgURL, stack, link }) {
   return (
     // each individual Portfolio item
-    <div className='bg-myTeal/50 rounded-md overflow-hidden hover:scale-110 ease-in duration-300'>
+    <div className='bg-lightYellow-darkest/50 dark:bg-myTeal/50 rounded-md overflow-hidden hover:scale-110 ease-in duration-300'>
         <a href={link} target='_blank'>
            <img 
                 src={imgURL} 
