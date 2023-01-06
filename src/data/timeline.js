@@ -12,7 +12,7 @@ export default [
         details: 'University of North Texas',
     },
     {
-        year: '2021',
+        year: '2020',
         title: 'Associates of Arts',
         duration: '4 years',
         details: 'Dual Credit',
