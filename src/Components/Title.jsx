@@ -4,7 +4,7 @@ export default function Title({ children, id}) {
   return (
     <h1 
         id={id && id}
-        className='text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-stone-900'
+        className='text-xl md:text-7xl font-bold dark:bg-myTeal/50 bg-lightYellow-darkest/50 text-myTeal dark:text-lightYellow rounded-lg px-5 py-3 w-fit h-fit my-10'
     >
         {children}    
     </h1>
