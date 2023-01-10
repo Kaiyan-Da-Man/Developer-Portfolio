@@ -27,6 +27,6 @@ export default [
         year: '2016',
         title: 'Hello, World',
         duration: '',
-        details: 'Details',
+        details: 'The beginning',
     },
 ]
