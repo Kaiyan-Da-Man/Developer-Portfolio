@@ -4,6 +4,7 @@ import Footer from './Components/Footer'
 import Intro from './Components/Intro'
 import Portfolio from './Components/Portfolio'
 import Timeline from './Components/Timeline'
+import Name from './Components/Name'
 
 function App() {
 	const [theme, setTheme] = useState(null)
@@ -70,8 +71,9 @@ function App() {
 				className="fixed p-2 z-10 bottom-10 right-10 bg-myTeal dark:bg-lightYellow text-lg rounded-full">
 				{theme === 'dark' ? sun : moon}
 			</button>
+			<Name onload="writeName()" />
 			<div className="bg-[url('/Developer-Portfolio/assets/img/mountain_landscape9_generated_adobe_express.svg')] bg-cover min-h-screen font-inter">
-				<div className='bg-gradient-to-tr from-lightYellow via-lightYellow dark:from-myTeal-darkest dark:via-myTeal-darkest ease-in duration-300'>
+				<div className="bg-gradient-to-tr from-lightYellow via-lightYellow dark:from-myTeal-darkest dark:via-myTeal-darkest ease-in duration-300">
 					<div className="max-w-full w-10/12 mx-auto">
 						<Intro />
 					</div>
