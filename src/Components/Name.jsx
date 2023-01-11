@@ -1,6 +1,5 @@
 import React from 'react'
 import anime from 'animejs/lib/anime.es.js'
-import { motion } from 'framer-motion'
 
 // animejs
 export default function Name() {
