@@ -3,7 +3,7 @@ import React from 'react'
 export default function Intro() {
 	return (
 		<>
-			<div className="flex flex-row">
+			<div className="flex flex-row" id='Intro'>
 				<div className="flex flex-col text-myTeal dark:text-lightYellow w-fit h-screen justify-center">
 					<h1 className="text-xl md:text-3xl font-bold dark:bg-myTeal/50 bg-lightYellow-darkest/50 rounded-lg px-5 py-3 w-fit h-fit ease-in duration-300">
 						Hi there! I'm Bryan
