@@ -9,7 +9,7 @@ export default function Contact() {
 				<form
 					action="https://getform.io/f/9c257022-8633-47a1-8c5e-82d0b4ba8922"
 					method="POST"
-					className="flex flex-col w-full md:w-7/12">
+					className="flex flex-col w-full md:w-5/12">
 					<input
 						type="text"
 						name="name"

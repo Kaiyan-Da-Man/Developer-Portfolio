@@ -8,7 +8,7 @@ export default function Portfolio() {
 		<>
 			<div className="flex flex-col items-center justify-center text-myTeal dark:text-lightYellow">
 				<Title>Projects</Title>
-				<div className="md:flex-row">
+				<div className="md:flex-row md:w-9/12">
 					<div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 						{portfolio.map((project) => (
 							<PortfolioItem
